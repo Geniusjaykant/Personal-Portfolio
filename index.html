@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaykant Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+      <nav id="header">
+			<div class="logo"><a href="#"><b>Jaykant Portfolio</b></a></div>
+			<div class="right">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Achievements</a></li>
+					<li><a href="#">Projects</a></li>
+					<li><a href="#">ContactMe</a></li>						
+				</ul>
+			</div>
+		</nav>
+    </header>
+    <main>
+        <section id="profile">
+          <div class="section__pic-container">
+            <img src="pic2.png" alt="Jaykant Profile pic">
+          </div>
+          <div class="section_text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Jaykant Kumar</h1>
+            <p class="section__text__p2">I'm   <span id="element"></span></p>
+            <!-- <span id="element"></span> -->
+            <div class="btn_container">
+              <button class="btn btn-color-2" onclick="window.open('./CodeChef.pdf')">
+                Download Resume                
+              </button>
+              <button class="btn btn-color-1" onclick="location.href='./#contect'">
+              Contact Info
+              </button>
+            </div>
+
+            <div id="socials-container">
+              <img src="linkedin.png" alt="My Linkedin Profile" class="icon" id="textshadow1" onclick="location.href='https://linkedin.com/in/jaykant-kumar-genius'">
+              <img src="github.png" alt="My GitHub Profile" class="icon" id="textshadow2" onclick="location.href='https://github.com/Geniusjaykant'"/>
+            </div>
+          </div>
+        </section>
+
+        <section id="about">
+          <p class="section__text__p1">Get to know more</p>
+          <h1 class="title">About Me</h1>
+          <div class="section-container">
+            <!-- <div class="section__pic2-container">
+              <img src="cropepic2.png" alt="Profile Pic" class="about-pic">
+            </div> -->
+
+            <div class="about-details-container">
+              <div class="about-containers">
+                <div class="details-container">
+                  <img
+                    src="experience.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <h3>Experience</h3>
+                  <p>Fresher <br />Softwere Developer</p>
+                </div>
+                <div class="details-container">
+                  <img
+                    src="education.png"
+                    alt="Education icon"
+                    class="icon"
+                  />
+                  <h3>Education</h3>
+                  <p>B.Tech. Bachelors Degree <br>(2022-26)</p>
+                </div>
+              </div>
+              <div class="text-container">
+                <ul>
+                  <li>
+                    I am an undergraduate student at the Technocrats Institute of Technology ,Bhopal. and second year student (Learning-Stage improving skills  ) I always strive to bring 100% to the work I do.
+                  </li>     
+                  <li><b>Language: </b>C++ &#8226; Java &#8226; HTML &#8226; CSS
+                  </li>          
+                  <li><b>Tools & Technologies: </b> Git & GitHub</li>  
+                  <li>Looking for an opportunity to combine my skills in software engineering and work in a challenging position that offers professional development, and personal growth day by day improving skills.</li>      
+                </ul>                  
+              </div>
+            </div>
+          </div>
+          <img
+            src="arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#experience'"
+          />
+        </section>
+          </div>
+        </section>
+        <footer>
+          <nav>
+            <div class="nav-links-container">
+              <ul>
+                <li>About</li>
+                <li>Project</li>                
+                <li>Achievements</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+          </nav>
+          <p>Copyright &#169; 2023-24 Jaykant Kumar. All Rights Reserved.</p>
+        </footer>
+        <script>
+
+          function toggleMenu() {
+          const menu = document.querySelector(".menu-links");
+          const icon = document.querySelector(".hamburger-icon");
+          menu.classList.toggle("open");
+          icon.classList.toggle("open");
+        }
+        </script>
+    </main>  
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+	<!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Softwere Developer', 'Web Designer'],
+      typeSpeed: 50,
+    });
+  </script>  
+</body>
+</html>
