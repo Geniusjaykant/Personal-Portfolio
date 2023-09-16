@@ -53,6 +53,7 @@ nav ul {
     display: flex;
     justify-content: center;
     
+    
 }
 
 nav ul li {
@@ -64,12 +65,11 @@ nav ul li a {
     text-decoration: none;
     color: #ffffff;
     content: "";
-    /* position: absolute; */
     width: 0%;
-    height: 1px;
+    height: 25px;
     display: block;
     transition: all 0.3s ease;
-    bottom: 20%;      
+    /* bottom: 20%;       */
 }
 
 nav ul li a:hover {
@@ -323,15 +323,18 @@ section {
 
 /* Footer Section */
 footer {
-    height: 10vh;
+    height: 10px;
     margin: 0rem;
     background-color: #080808;
-    padding: 20px 0 10px 0;
+    padding: 10px 0 2% 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 footer p {
     text-align: center;
-    margin-top: 20px;
+    /* margin-top: 40px; */
 }
 
  /* Coding Profiles  */
