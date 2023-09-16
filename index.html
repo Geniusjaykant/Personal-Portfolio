@@ -27,7 +27,7 @@
     <main>
         <section id="profile">
           <div class="section__pic-container">
-            <img src="pic2.png" alt="Jaykant Profile pic">
+            <img src="./Assets/pic2.png" alt="Jaykant Profile pic">
           </div>
           <div class="section_text">
             <p class="section__text__p1">Hello, I'm</p>
@@ -44,8 +44,8 @@
             </div>
 
             <div id="socials-container">
-              <img src="linkedin.png" alt="My Linkedin Profile" class="icon" id="textshadow1" onclick="location.href='https://linkedin.com/in/jaykant-kumar-genius'">
-              <img src="github.png" alt="My GitHub Profile" class="icon" id="textshadow2" onclick="location.href='https://github.com/Geniusjaykant'"/>
+              <img src="./Assets/linkedin.png" alt="My Linkedin Profile" class="icon" id="textshadow1" onclick="location.href='https://linkedin.com/in/jaykant-kumar-genius'">
+              <img src="./Assets/github.png" alt="My GitHub Profile" class="icon" id="textshadow2" onclick="location.href='https://github.com/Geniusjaykant'"/>
             </div>
           </div>
         </section>
@@ -62,7 +62,7 @@
               <div class="about-containers">
                 <div class="details-container">
                   <img
-                    src="experience.png"
+                    src="./Assets/experience.png"
                     alt="Experience icon"
                     class="icon"
                   />
@@ -71,7 +71,7 @@
                 </div>
                 <div class="details-container">
                   <img
-                    src="education.png"
+                    src="./Assets/education.png"
                     alt="Education icon"
                     class="icon"
                   />
@@ -93,13 +93,48 @@
             </div>
           </div>
           <img
-            src="arrow.png"
+            src="./Assets/arrow.png"
             alt="Arrow icon"
             class="icon arrow"
-            onclick="location.href='./#experience'"
+            onclick="location.href='./About Me'"
           />
         </section>
+
+        <!-- Coding Profiles -->
+        <section id="testimonials" class="testimonials section-bg">
+          <div class="container">
+            <div class="section-title">
+              <h2>Coding Profile</h2>
+              <p><b>Jaykant-Kumar</b> Across Coding platforms.</p>
+          </div>   
+            <div class="flex">        
+              <div class="testimonial-item">
+        
+                <img src="./Assets/github.png" class="testimonial-img" alt="github.com/Geniusjaykant" onclick="location.href='https://github.com/Geniusjaykant'">
+                <a href="https://github.com/Geniusjaykant"  target = "_blank"><h3>GITHUB ⇗</h3> </a>
+              </div>
+      
+              <div class="testimonial-item">
+      
+                <img src="./Assets/HackerRank_Icon.png" class="testimonial-img" id="HackerRank" alt="HACKERANK icon" onclick="location.href='https://www.hackerrank.com/geniusjaykant'">
+                <a href="https://www.hackerrank.com/geniusjaykant"  target = "_blank"><h3>HackerRank ⇗</h3> </a>
+              </div>
+      
+              <div class="testimonial-item">
+               
+                <img src="./Assets/Codechef.png" class="testimonial-img" id="CodeChef" alt="codechef.com/users/jay_7462" onclick="location.href='https://www.codechef.com/users/jay_7462'">
+                <a href="https://www.codechef.com/users/jay_7462"  target = "_blank"><h3>CodeChef ⇗</h3> </a>
+              </div>
+      
+              <div class="testimonial-item">
+                
+                <img src="./Assets/leetcodes.png" class="testimonial-img" id="leetcodes" alt="leetcode.com/Jaykantkumar/" onclick="location.href='https://leetcode.com/Jaykantkumar/'">
+                <a href="https://leetcode.com/Jaykantkumar/"  target = "_blank"   ><h3>LEETCODE ⇗</h3> </a>
+              </div>
+            </div> 
           </div>
+        </section>      
+        <!-- Coding Profiles End -->      
         </section>
         <footer>
           <nav>
@@ -114,24 +149,15 @@
           </nav>
           <p>Copyright &#169; 2023-24 Jaykant Kumar. All Rights Reserved.</p>
         </footer>
-        <script>
-
-          function toggleMenu() {
-          const menu = document.querySelector(".menu-links");
-          const icon = document.querySelector(".hamburger-icon");
-          menu.classList.toggle("open");
-          icon.classList.toggle("open");
-        }
-        </script>
-    </main>  
+      </main>  
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
-	<!-- Setup and start animation! -->
+
   <script>
     var typed = new Typed('#element', {
       strings: ['Web Developer', 'Softwere Developer', 'Web Designer'],
       typeSpeed: 50,
     });
-  </script>  
+  </script>   
 </body>
 </html>

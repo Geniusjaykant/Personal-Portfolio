@@ -334,7 +334,73 @@ footer p {
     margin-top: 20px;
 }
 
-nav div{ 
+ /* Coding Profiles  */
+.section-title {
+    text-align: center;
+}
+
+.section-title p b {
+    color: yellow;
+}
+
+#testimonials {
+    height: 50vh !important;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.testimonial-item {
+    padding-left: 5px;
+    position: relative;
+    margin-top: 50px;
+    
+}
+
+.testimonial-img {
+    height: 65px;
+    width: 65px;
+    text-align: center;
+    background-color: #cad1db;
+    border-radius: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 1px #0A66C2,
+                0 0 5px #0A66C2,
+                0 0 10px #0A66C2,
+                0 0 20px #0A66C2;
+}
+
+#HackerRank {
+    margin-left: 33px;
+    box-shadow: 0 0 1px #126605,
+                0 0 5px #126605,
+                0 0 10px #126605,
+                0 0 20px #126605;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
+#CodeChef {
+    margin-left: 24px;
+    box-shadow: 0 0 1px #1d05fa,
+                0 0 5px #1d05fa,
+                0 0 10px #1d05fa,
+                0 0 20px #1d05fa;
+}
+
+#leetcodes {
+    margin-left: 18px;
+    box-shadow: 0 0 1px #cad1db,
+                0 0 5px #cad1db,
+                0 0 10px #cad1db,
+                0 0 20px #cad1db;
     
 }
 
