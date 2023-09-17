@@ -143,7 +143,7 @@ section {
 
 .title {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     color: yellow;
     /* text-shadow: 0 0 1px yellow,
                 0 0 2px yellow,
@@ -256,7 +256,7 @@ section {
 
 /* About section */
 #about {
-    position: relative;
+    position: relative;    
 }
 
 .about-containers {
@@ -309,22 +309,144 @@ section {
     color: black;
 }
 
+/* Coding Profiles  */
+
 .section-container {
     gap: 4rem ;
     height: 80%;
+}
+
+.Protitle {
+    font-size: 2rem;
 }
 
 .section__pic2-container {
     height: 275px;
     width: 275px;
     margin: auto 0;
-    /* display: flex; */
 }
+
+ /* Project section */
+
+ .psection {
+    text-align: center ;
+ }
+
+ .psection-title {
+    font-size: 2rem;
+ }
+
+ .psection p b {
+    color: #f42f03;
+ }
+
+ .psection p {
+    margin-bottom: 45px;
+ }
+    
+h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #1b11db;
+}
+
+h4 {
+    align-items: ;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.pbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button {    
+    padding: 12px 30px;
+    background-color: #e7e7e7;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+button:hover {
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.24),0 10px 20px 0 rgba(0,0,0,0.19);
+    background-color: black;
+    color: white;
+}
+
+.Project-section {
+    padding: 50px;
+    background-color: white;
+    color: #080808;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+/* Contact Us */
+.contacts {
+    box-sizing: border-box;
+    margin-top: 200px;
+}
+
+.csection-container {
+    border: 2px solid wheat;
+    height: 400px;
+}
+
+.email {
+    text-align: center;
+    margin: 30px 20px;
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid white;
+    
+    
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+}
+
+.social-icon img {
+    border: 2px solid white;
+    padding: 10px;
+    height: 50px;
+    background-color: white;
+
+}
+
+.linkedin {
+    height: 20px !important;
+}
+
+.github {
+    height: 20px;
+}
+
+.instagram {
+    height: 20px;
+}
+
+.facebook {
+    height: 20px;
+}
+
 
 /* Footer Section */
 footer {
     height: 10px;
-    margin: 0rem;
+    margin: 20rem 0 0 0;
     background-color: #080808;
     padding: 10px 0 2% 0;
     position: relative;
